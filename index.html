@@ -5,9 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>A to Z typing practice</title>
+    <style>
+        .container {
+            width: 250px;
+            margin: 0 auto;
+        }
+        .typing-board {
+            width: px;
+        }
+        .try {
+            margin: 30px 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .input {
+            width: 250px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            border-left-width: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            border-right-width: 0px;
+            padding-top: 0px;
+            border-top-width: 0px;
+        }
+    </style>
 </head>
 <body>
-    <h1>A~Z 타이핑 연습</h1>
+    <div class="container">
+        <h1>A~Z 타이핑 연습</h1>
+        <div class="timer">
+
+        </div>
+        <div class="typing-board">
+            <div class="try">
+                <span class="try">abcdefghijklmnopqrstuvwxyz</span>
+                <input type="text" class="input" id="first">
+            </div>
+            <div class="try">
+                <span class="try">abcdefghijklmnopqrstuvwxyz</span>
+                <input type="text" class="input" id="second">
+            </div>
+            <div class="try">
+                <span class="try">abcdefghijklmnopqrstuvwxyz</span>
+                <input type="text" class="input" id="third">
+            </div>
+            <div class="try">
+                <span class="try">abcdefghijklmnopqrstuvwxyz</span>
+                <input type="text" class="input" id="fourth">
+            </div>
+            <div class="try">
+                <span class="try">abcdefghijklmnopqrstuvwxyz</span>
+                <input type="text" class="input" id="fifth">
+            </div>
+        </div>
+    </div>
+    
     <script src="./app.js"></script>
 </body>
 </html>
