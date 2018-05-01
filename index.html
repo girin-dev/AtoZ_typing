@@ -11,7 +11,12 @@
     <div class="container">
         <h1>A~Z 타이핑 연습</h1>
         <div class="timer">
-
+            <p>
+                <span id="seconds">00</span>:
+                <span id="tens">00</span>
+            </p>
+            <button id="button-start">Start</button>
+            <button id="button-stop">Stop</button>
         </div>
         <div class="typing-board">
             <div class="try">
@@ -34,9 +39,14 @@
                 <span class="try">abcdefghijklmnopqrstuvwxyz</span>
                 <input type="text" class="input" id="fifth">
             </div>
+            <div class="try">
+                <span class="try">abcdefghijklmnopqrstuvwxyz</span>
+                <input type="text" class="input" id="sixth">
+            </div>
         </div>
     </div>
     
     <script src="./app.js"></script>
+    <script src="./stopwatch.js"></script>
 </body>
 </html>
