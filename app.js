@@ -35,6 +35,6 @@ inputfifth.addEventListener('keyup', function (e) {
 })
 inputsixth.addEventListener('keyup', function (e) {
     if (e.keyCode == 90) {
-        document.getElementById('button-end').click()
+        document.getElementById('button-stop').click()
     }
 })
