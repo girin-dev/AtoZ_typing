@@ -33,7 +33,7 @@ inputfifth.addEventListener('keyup', function (e) {
         inputsixth.focus();
     }
 })
-inputsixth.addEventListener('keyup', function (e) {
+inputsixth.addEventListener('keydown', function (e) {
     if (e.keyCode == 90) {
         document.getElementById('button-stop').click()
     }
