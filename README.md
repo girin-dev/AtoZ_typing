@@ -7,7 +7,7 @@
 
 ## ver 1
 * 텍스트 입력이 제대로 검사되었는지 확인하는 기능이 없어, 그냥 a~z까지 미리 입력된 것과 눈으로 비교하면 됩니다.
-* 타이머는 코드를 퍼왔습니다. 출처는 A PEN BY Cathy Dutton(https://codepen.io/cathydutton/pen/GBcvo) 입니다.
+* 타이머는 코드를 퍼왔습니다. 출처는 A PEN BY Cathy Dutton(<a href="http://example.com/" target="_blank">Hello, world!</a>) 입니다.
 
 ## ver 2
 * 계획: 텍스트 입력이 제대로 되었는지 자체적으로 검사하여 시각적으로 표시해줍니다.
